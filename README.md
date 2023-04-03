@@ -1,1 +1,1 @@
-# gric
+# for GRIC

@@ -1,0 +1,26 @@
+{
+  "data1": [
+    { "id": "1", "number": "11", "city": "Saint Petersburg", "country": "Russia", "date": "2023-03-26" },
+    { "id": "2", "number": "22", "city": "Chicago", "country": "USA", "date": "2023-03-27" },
+    { "id": "3", "number": "33", "city": "Hawaii", "country": "USA", "date": "2023-03-28" },
+    { "id": "4", "number": "44", "city": "Miami", "country": "USA", "date": "2023-03-29" },
+    { "id": "5", "number": "55", "city": "Sydney", "country": "Australia", "date": "2023-03-30" },
+    { "id": "6", "number": "66", "city": "Vienna", "country": "Austria", "date": "2023-03-31" }
+  ],
+  "data2": [
+    { "number": "11", "city": "Saint Petersburg", "date": "2023-04-26" },
+    { "number": "22", "city": "Chicago", "date": "2023-04-27" },
+    { "number": "33", "city": "Hawaii", "date": "2023-04-28" },
+    { "number": "44", "city": "Miami", "date": "2023-04-29" },
+    { "number": "55", "city": "Sydney", "date": "2023-04-30" },
+    { "number": "66", "city": "Vienna", "date": "2023-04-31" }
+  ],
+  "data3": [
+    { "id": "1456", "number": "11", "type": "small", "count": "4", "date": "2023-04-06" },
+    { "id": "2696", "number": "22", "type": "medium", "count": "7", "date": "2023-04-07" },
+    { "id": "3869", "number": "33", "type": "long", "count": "12", "date": "2023-04-08" },
+    { "id": "4042", "number": "44", "type": "small", "count": "5", "date": "2023-04-09" },
+    { "id": "5846", "number": "55", "type": "medium", "count": "10", "date": "2023-04-10" },
+    { "id": "6132", "number": "66", "type": "medium", "count": "6", "date": "2023-04-11" }
+  ]
+}

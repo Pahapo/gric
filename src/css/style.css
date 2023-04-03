@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 360px;
+  padding: 0;
+  margin: 0;
+
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
+  color: rgba(56, 56, 56, 1);
+}
+
+p,
+input {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.09px;
+  margin: 0;
+}
+
+button,
+input {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.container {
+  max-width: 1232px;
+  margin: 40px auto;
+}
+
+.result {
+  display: none;
+}
+
+.tabs__nav {
+  display: flex;
+}
+
+.tabs__nav-btn {
+  padding: 15px 30px;
+
+  font-size: 20px;
+
+  background-color: #f5f5f5;
+  border: 0;
+  border-right: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.tabs__nav-btn {
+  border-right: none;
+}
+
+.tabs__nav-btn:hover {
+  background-color: #ddd;
+}
+
+.tabs__nav-btn.active {
+  background-color: #3077c6;
+  border-right-color: #3077c6;
+  color: #fff;
+}
+
+.tabs__content {
+  margin: 50px auto;
+}
+
+.tabs__item {
+  display: none;
+}
+
+.tabs__item.active {
+  display: block;
+}
+
+.search__block {
+  position: relative;
+  display: flex;
+  height: 64px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.search__btn input {
+  height: 100%;
+  padding: 20px 57px;
+  color: #fff;
+  font-weight: 500;
+  background-color: #3077c6;
+  border-radius: 0 8px;
+}
+
+.search input {
+  height: 70%;
+  width: 180px;
+  padding: 23px 24px;
+  margin: 0 30px;
+  border-radius: 8px;
+  position: relative;
+  border: 1px solid rgb(207, 207, 207);
+}
+
+.search input::placeholder {
+  color: #989898;
+}
+
+.search input:focus {
+  border: 3px solid rgba(245, 189, 65, 1);
+  transition: 0ms;
+}
+
+.no__double {
+  border-collapse: collapse;
+}
+
+table {
+  border: 1px solid;
+}
+
+th,
+td {
+  padding: 3px 5px;
+  border: 1px solid;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Testing data</title>
+    <meta name="msapplication-TileColor" content="#25acd3" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="search__block">
+        <div class="search">
+          <p>Номер вагона</p>
+          <input type="number" id="train-info__input" placeholder="12345" />
+          <p>Дата 1</p>
+          <input type="date" id="date1__input" value="" />
+          <p>Дата 2</p>
+          <input type="date" id="date2__input" value="" />
+        </div>
+
+        <div class="search__btn" id="search__btn1">
+          <input type="button" value="Найти" />
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <div class="result">
+        <div class="container">
+          <div class="new__container">
+            <div class="title">
+              <h1 class="line2">Данные о вагоне за период</h1>
+            </div>
+
+            <div class="tabs">
+              <div class="tabs__nav">
+                <button class="tabs__nav-btn" type="button" data-tab="#tab_1">Tab 1</button>
+                <button class="tabs__nav-btn" type="button" data-tab="#tab_2">Tab 2</button>
+                <button class="tabs__nav-btn" type="button" data-tab="#tab_3">Tab 3</button>
+              </div>
+              <div class="tabs__content">
+                <div class="tabs__item" id="tab_1">
+                  <table class="no__double" id="result__items1">
+                    <tr>
+                      <th>id</th>
+                      <th>number</th>
+                      <th>city</th>
+                      <th>country</th>
+                      <th>date</th>
+                    </tr>
+                  </table>
+                </div>
+
+                <div class="tabs__item" id="tab_2">
+                  <table class="no__double" id="result__items2">
+                    <tr>
+                      <th>number</th>
+                      <th>city</th>
+                      <th>date</th>
+                    </tr>
+                  </table>
+                </div>
+
+                <div class="tabs__item" id="tab_3">
+                  <table class="no__double" id="result__items3">
+                    <tr>
+                      <th>id</th>
+                      <th>number</th>
+                      <th>type</th>
+                      <th>count</th>
+                      <th>date</th>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="src/js/services/fetch.js"></script>
+    <script src="src/js/main.js"></script>
+  </body>
+</html>

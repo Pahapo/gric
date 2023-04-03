@@ -1,0 +1,27 @@
+{
+  "name": "gric",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "json-server -w server/db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pahapo/IntellectFox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pahapo/IntellectFox/issues"
+  },
+  "homepage": "https://github.com/Pahapo/IntellectFox#readme",
+  "devDependencies": {
+    "eslint": "^8.23.1",
+    "json-server": "^0.17.3",
+    "prettier": "2.7.1"
+  }
+}
